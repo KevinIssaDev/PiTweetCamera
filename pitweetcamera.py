@@ -75,10 +75,10 @@ if __name__ == "__main__":
     button = Button(17)
     sensor = MotionSensor(15)
     lights = TrafficLights(2, 3, 4)
+    camera = PiCamera()
     lights.red.off()
     lights.amber.off()
     lights.green.off()
-    camera = PiCamera()
     verbose = True
     auth_tokens = load_auth_tokens('twitter_auth.json')
     auth = tweepy.OAuthHandler(auth_tokens['consumer_key'], auth_tokens['consumer_secret'])
