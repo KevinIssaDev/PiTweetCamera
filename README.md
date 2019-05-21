@@ -1,18 +1,18 @@
-## Funktioner
-Detta projekt är ett övervakningssystem som spelar in och tar bilder när rörelse upptäcks. Systemet rapporterar rörelser via Twitter “tweets”.
-
-## Krav
+# PiTwitterCamera
+## Functionality
+This is a surveillance camera system scripted in Python. It detects and records movements. The recordings are saved locally, movements are reported to Twitter using tweepy.
+## Requirements
 För att utföra detta projekt bör du ha dessa.
-#### Hårdvara
+#### Hardware
 * Raspberry Pi
-* Raspberry Pi kamera modul
-* PIR Rörelsesensor
-* Taktil knapp
-* Quick-connect sladdar
-#### Mjukvara
+* Raspberry Pi camera module
+* PIR Motion Sensor
+* Tactile button
+* Quick-connect wires
+#### Software
 * Python 3
 * pip
-#### Python Moduler
+#### Python Modules
 * gpiozero
 * picamera
 * datetime
@@ -20,10 +20,9 @@ För att utföra detta projekt bör du ha dessa.
 * json
 * tweepy
 
-Du bör även äga ett Twitter utvecklar konto.
+You also need to own a Twitter developer account.
 
-#### Krets
+##Circuit
 ![Circuit](/Circuit.png "Circuit")
-PIN schema: https://gpiozero.readthedocs.io/en/stable/_images/pin_layout.svg.
-
-Kamera modulen bör även kopplas in.
+PIN layout: https://gpiozero.readthedocs.io/en/stable/_images/pin_layout.svg.
+The camera module has to be connected as well.
