@@ -25,4 +25,5 @@ You also need to own a Twitter developer account.
 ##Circuit
 ![Circuit](/Circuit.png "Circuit")
 PIN layout: https://gpiozero.readthedocs.io/en/stable/_images/pin_layout.svg.
+
 The camera module has to be connected as well.
