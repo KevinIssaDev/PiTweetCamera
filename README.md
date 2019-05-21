@@ -1,4 +1,4 @@
-# PiTwitterCamera
+# PiTweetCamera
 ## Functionality
 This is a surveillance camera system scripted in Python. It detects and records movements. The recordings are saved locally, movements are reported to Twitter using tweepy.
 ## Requirements
