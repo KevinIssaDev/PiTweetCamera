@@ -2,7 +2,6 @@
 ## Functionality
 This is a surveillance camera system scripted in Python. It detects and records movements. The recordings are saved locally, movements are reported to Twitter using tweepy.
 ## Requirements
-För att utföra detta projekt bör du ha dessa.
 #### Hardware
 * Raspberry Pi
 * Raspberry Pi camera module
